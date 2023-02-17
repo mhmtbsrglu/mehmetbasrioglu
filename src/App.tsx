@@ -25,7 +25,7 @@ function App() {
           <div className=' '>
           <div className='container'>
           <div className='relative  h-[35rem] my-20  mb-32'>
-      <video src={keyboard} className="h-full w-full object-cover rounded-[1rem] " autoPlay loop muted />
+      <video src={keyboard} className="h-full w-full object-cover rounded-[1rem] " autoPlay={true} loop muted />
       <img src={border} className="absolute inset-0 w-full h-full scale-105 z-10"/>
       <div className='p-10 flex justify-start absolute top-0 inset-0 items-end bg-black/25 rounded-[1rem]'>
       <div className=' text-2xl font-semibold text-white flex-1 p-2 h-1/5 rounded-lg flex flex-col'>
@@ -46,7 +46,7 @@ function App() {
 <path d="M293.012 313.208C293.412 315.671 295.728 317.342 298.184 316.94L338.217 310.403C340.674 310.002 342.341 307.68 341.941 305.217C341.541 302.754 339.225 301.083 336.768 301.485L301.183 307.296L295.387 271.621C294.987 269.159 292.671 267.487 290.214 267.888C287.757 268.289 286.09 270.611 286.491 273.074L293.012 313.208ZM-9.74347e-06 8.90862C27.1302 13.5277 57.2605 35.8288 80.9637 65.398C104.627 94.9165 121.034 130.625 121.704 160.907L130.715 160.705C129.985 127.717 112.357 90.1345 87.9899 59.7375C63.663 29.3909 31.7652 5.15126 1.50925 0L-9.74347e-06 8.90862ZM121.704 160.907C122.131 180.147 118.498 193.204 113.335 201.182C108.256 209.031 101.754 211.976 95.5615 211.626C82.9028 210.91 67.2669 195.512 66.6708 165.758L57.6596 165.94C58.2993 197.922 75.5618 219.546 95.0544 220.647C104.937 221.206 114.325 216.257 120.897 206.099C127.385 196.072 131.165 181.008 130.715 160.705L121.704 160.907ZM66.6708 165.758C65.9246 128.46 82.6201 100.358 107.942 82.0461C133.391 63.6408 167.677 55.0725 201.775 57.5099L202.416 48.4967C166.537 45.9318 130.079 54.8947 102.669 74.7173C75.1304 94.6323 56.8491 125.455 57.6596 165.94L66.6708 165.758ZM201.775 57.5099C218.184 58.683 238.081 66.7591 257.336 80.6044C276.531 94.4072 294.775 113.724 307.956 136.923C334.198 183.111 340.495 244.813 293.802 309.842L301.117 315.121C350.032 246.999 343.635 181.463 315.788 132.451C301.924 108.05 282.773 87.775 262.589 73.2618C242.464 58.7903 220.995 49.8248 202.416 48.4967L201.775 57.5099Z" fill="black"/>
 </svg>
       <h1 className='absolute top-0 left-96 text-4xl font-semibold text-black'>Mutlu et. Mutlu ol.</h1>
-        <video loop autoPlay muted controls={false} src={mutlu} className="w-72 h-72 -mt-2 ml-4 object-cover rounded-full z-10" alt='Omreon'/>
+        <video loop autoPlay muted controls={false} src={mutlu} className="w-72 h-72 -mt-2 ml-4 object-cover rounded-full z-10"/>
         
         </div>
 
