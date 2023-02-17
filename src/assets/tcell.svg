@@ -1,0 +1,25 @@
+<svg width="1128" height="546" viewBox="0 0 1128 546" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1118 3H10C6.134 3 3 6.134 3 9.99999V530C3 533.866 6.134 537 9.99999 537H465V540H9.99999C4.47714 540 0 535.523 0 530V9.99999C0 4.47715 4.47715 0 10 0H1118C1123.52 0 1128 4.47715 1128 10V530C1128 535.523 1123.52 540 1118 540H630V537H1118C1121.87 537 1125 533.866 1125 530V10C1125 6.134 1121.87 3 1118 3ZM587 537H508V540H587V537Z" fill="#fff"/>
+<rect x="462" y="528" width="18" height="18" rx="9" fill="#fff"/>
+<rect x="500" y="528" width="18" height="18" rx="9" fill="#fff"/>
+<rect x="624" y="528" width="18" height="18" rx="9" fill="#fff"/>
+<rect x="586" y="528" width="18" height="18" rx="9" fill="#fff"/>
+<path d="M969 521.5L996 539L1027.5 499L1080 538L1090.5 459.5L1125 505.5L1054.5 484.5L1032 538L992 514.5L963 538" stroke="#fff" stroke-opacity="0.57"/>
+<path d="M902 539C976.93 524.96 1126.63 475.103 1126 388" stroke="#fff" stroke-width="2"/>
+<rect x="991" y="514" width="2" height="2" rx="1" fill="white"/>
+<rect x="969" y="521" width="2" height="2" rx="1" fill="white"/>
+<rect x="1007" y="523" width="2" height="2" rx="1" fill="white"/>
+<rect x="976" y="526" width="2" height="2" rx="1" fill="white"/>
+<rect x="963" y="536" width="2" height="2" rx="1" fill="white"/>
+<rect x="992" y="536" width="2" height="2" rx="1" fill="white"/>
+<rect x="997" y="536" width="2" height="2" rx="1" fill="white"/>
+<rect x="1026" y="498" width="3" height="3" rx="1.5" fill="white"/>
+<rect x="1026" y="498" width="3" height="3" rx="1.5" fill="white"/>
+<rect x="1030" y="536" width="3" height="3" rx="1.5" fill="white"/>
+<rect x="1042" y="509" width="3" height="3" rx="1.5" fill="white"/>
+<rect x="1053" y="483" width="3" height="3" rx="1.5" fill="white"/>
+<rect x="1078" y="536" width="3" height="3" rx="1.5" fill="white"/>
+<rect x="1084" y="492" width="3" height="3" rx="1.5" fill="white"/>
+<rect x="1089" y="458" width="3" height="3" rx="1.5" fill="white"/>
+<rect x="1123" y="504" width="3" height="3" rx="1.5" fill="white"/>
+</svg>
