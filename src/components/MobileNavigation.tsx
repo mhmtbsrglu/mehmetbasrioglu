@@ -28,8 +28,10 @@ const MobileNavigation = (props: Props) => {
       </a>
       </li>
       <li className='flex flex-col items-center'>
+      <a href='https://www.linkedin.com/in/mehmetbasrioglu/details/certifications/' className='flex flex-col items-center'>
       <BsAward className='mb-1'/>
       <span className='text-[0.6rem]'>Certificates</span>
+      </a>
       </li>
     </ul>
   </div>
