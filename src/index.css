@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -8,15 +9,46 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #000;
 
-  font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  
+}
+*{
+  font-family: 'Inter', sans-serif!important;
 }
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind screens;
+@keyframes spin {
+
+  from{
+    transform: rotate(0deg) scale(125%);
+  }
+  to{
+    transform: rotate(360deg) scale(125%);
+  }
+  
+}
+@layer utilities {
+
+  .card-banner {
+
+    clip-path: polygon(7% 0, 100% 0, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 26%);
+
+  }
+
+  
+
+  .animate-spins {
+
+    animation: spin 2s linear alternate-reverse infinite!important;
+
+  }
+
+}
 
 *{
   font-family: 'Roboto', sans-serif;

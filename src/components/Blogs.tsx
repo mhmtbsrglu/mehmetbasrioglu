@@ -47,14 +47,8 @@ const Blogs = (props: Props) => {
         })
     }
   return (
-    <div className="my-40">
-      <div className="flex items-center justify-between p-4 my-10">
-
-
-<div className="text-3xl font-semibold my-5 text-primary">Blog Listesi</div>
-      </div>
-
-      <div className="flex flex-wrap  justify-around">
+    <div >
+      <div className="flex md:flex-wrap  md:justify-around sm:flex-col md:flex-row md:mt-28">
         {blogs.map((data:Blog) => {
           return <BlogCard title={data.title} mainImage={data.mainImage} author={data.author} _id={data._id}/>;
         })}

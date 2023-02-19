@@ -20,6 +20,7 @@
     "react-icons": "^4.7.1",
     "react-portable-text": "^0.6.0",
     "react-router-dom": "^6.8.1",
+    "react-typed": "^1.2.0",
     "sanity": "^3.0.0",
     "sort-by": "^1.2.0",
     "styled-components": "^5.2.0"

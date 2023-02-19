@@ -2,7 +2,6 @@ import React from 'react'
 import { client } from '../../client'
 import { Blog } from '../Blogs'
 import PortableText from "react-portable-text"
-import writing from "../../assets/writing.png"
 import { useParams } from 'react-router-dom'
 type Props = {}
 const projectId = import.meta.env.VITE_REACT_APP_PROJECT_ID;
@@ -45,23 +44,23 @@ function BlogDetail({}: Props) {
     }
 
   return (
-    <div className='container my-48 pl-10 pr-10 flex flex-col'>
+    <div className='flex flex-col md:container md:mt-28'>
         {
-            blogs?.body && <div >
-                <img src={blogs?.mainImage.asset.url} className="w-full h-96 object-cover" />
+            blogs?.body && <div className='p-10' >
+                <img src={blogs?.mainImage.asset.url} className="w-full h-96 sm:h-60 rounded-lg object-cover" />
             <PortableText content={blogs?.body} className="my-10"
             projectId={projectId}
             dataset="production"
                   serializers={{
                       h1: (props: any) => <h1 className='text-3xl font-semibold text-white my-5' {...props} />,
-                      link: ({ children }: any) => <a href={children} className="text-blue-400 font-semibold hover:underline">{children}</a>,
+                      link: ({ children }: any) => <a href={children} className="text-blue-400 font-semibold hover:underline">{children.toString().length > 20 ? `${children.toString().slice(0,35) + "..."}` :children}</a>,
                       ol: ({ children }: any) => <ol className="special-list-item">{children}</ol>,
                       ul: ({ children }: any) => <ul className="special-list-item list-disc">{children}</ul>,
                       h3: ({ children }: any) => <br/>,
                   }} /></div>
         }
         {
-            blogs?.author.bio && <div className='border-t-2 border-gray-800 inline-block py-10 text-gray-400'>
+            blogs?.author.bio && <div className='border-t-2 border-gray-800 inline-block py-10 text-gray-400 m-10'>
             <div className='flex gap-2'>
                 <img src={blogs?.author.image.asset.url} className="w-10 h-10 object-cover rounded-full"/>
                 <div className='flex-col flex flex-1'>
