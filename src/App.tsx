@@ -14,6 +14,7 @@ import MobileNavigation from './components/MobileNavigation'
 import Typed from "react-typed"
 import { BsArrowBarLeft, BsArrowRight, BsArrowRightCircle, BsTelephone } from 'react-icons/bs'
 import Projects from './components/Projects'
+import Marquee from "react-fast-marquee";
 function App() {
   const [count, setCount] = useState(0)
 //import.meta.env.VITE_REACT_APP_PROJECT_ID
@@ -37,11 +38,11 @@ I give importance to teamwork and cooperation as a team player.
 I'm interested with travelling, fitness, nutrition, self-improvement and entrepreneurship (:
             </p>
             <div className='bg-softbg rounded-xl my-10 '>
-            <marquee behavior="scroll"    direction="left" scrollamount={10}><div className='flex items-center justify-between py-2 gap-10'>
+            <Marquee gradient={false} speed={100}><div className='flex items-center justify-between py-2 gap-10'>
             <img src={gelecegiyazanlar} className="w-30"/>
             <img src={btk} className="w-20" />
             <img src={patika} className="w-20" />
-            </div></marquee>
+            </div></Marquee>
             </div>
             
             <div className=' my-5 p-[0.1rem] rounded-lg relative mt-20'>
